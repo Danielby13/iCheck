@@ -1,0 +1,70 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-picker/picker": "1.9.2",
+    "@react-navigation/bottom-tabs": "^5.11.7",
+    "@react-navigation/drawer": "^5.12.3",
+    "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.14.2",
+    "@testing-library/react-native": "^7.2.0",
+    "@types/jest": "^26.0.22",
+    "enzyme-adapter-react-16.1": "^1.6.4",
+    "expo": "~40.0.0",
+    "expo-barcode-scanner": "~9.1.0",
+    "expo-media-library": "~10.0.0",
+    "expo-print": "~9.2.0",
+    "expo-sharing": "~8.5.0",
+    "expo-status-bar": "~1.0.3",
+    "firebase": "^8.2.9",
+    "firebase-tools": "^9.4.0",
+    "jest-enzyme": "^7.1.2",
+    "moment-range": "^4.0.2",
+    "moments": "^0.0.2",
+    "native-base": "^2.15.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native-animated-message": "^1.0.2",
+    "react-native-chart-kit": "^6.11.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-dropdown-picker": "^4.0.2",
+    "react-native-dropdownalert": "^4.3.0",
+    "react-native-elements": "^3.2.0",
+    "react-native-flash-message": "^0.1.23",
+    "react-native-gesture-handler": "^1.10.1",
+    "react-native-modal": "^11.7.0",
+    "react-native-modal-dropdown": "^1.0.0",
+    "react-native-modal-wrapper": "^3.1.1",
+    "react-native-paper": "^4.7.2",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.17.1",
+    "react-native-svg": "^12.1.0",
+    "react-native-web": "~0.13.12",
+    "react-test-renderer": "16.14.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "@testing-library/jest-native": "^4.0.1",
+    "jest-expo": "^41.0.0",
+    "jest-expo-enzyme": "^1.1.2",
+    "react-native-testing-library": "^6.0.0"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "moduleNameMapper": {
+      "styled-components": "<rootDir>/node_modules/styled-components/native/dist/styled-components.native.cjs.js"
+    }
+  },
+  "private": true
+}
