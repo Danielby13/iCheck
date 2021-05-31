@@ -19,9 +19,7 @@ export default otpAuth = () => {
   const [loadingOTP, setLoadingOTP] = useState(false);
   const [tempUser, setTempUser] = useContext(UserContext);
   const apiUrl =
-    "https://api.multisend.co.il/MultiSendAPI/sendsms?user=danielby13&password=danielby2020&from=iCheck&recipient=" +
-    tempUser.phoneNumber +
-    "&message_type=sms+tts&message=";
+    "*********"; // Censored due to sensitive information
 
   const sendOTPagain = async () => {
     // if the user cant find the OTP on his mobile, the function sends OTP again
