@@ -24,9 +24,7 @@ export default SignUpScreen = ({ navigation }) => {
     Math.floor(1000 + Math.random() * 9000)
   );
   const apiUrl =
-    "https://api.multisend.co.il/MultiSendAPI/sendsms?user=danielby13&password=danielby2020&from=iCheck&recipient=" +
-    phoneNumber +
-    "&message_type=sms+tts&message=";
+    "**********"; // Censored due to sensitive information
 
   const sentOTP = async () => {
     // send OTP
