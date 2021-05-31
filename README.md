@@ -10,62 +10,85 @@ You can also<a href="https://github.com/Danielby13/Demo_POS"> Click here </a> to
 Click on any section to see a short demo of any functionality in the app using a short gif
 
 <details>
-  <summary>1 Sign-up</summary>
+  <summary>Sign-up</summary>
+  
   ![](https://media.giphy.com/media/pzFcLCeycOGGSiVneD/giphy.gif)
+  
 </details>
 
 <details>
-  <summary>2 Login, Home screen, logout</summary>
+  <summary>Login, Home screen, logout</summary>
+  
   ![](https://media.giphy.com/media/DjuNef8CvMFPn9gqYD/giphy.gif)
+  
 </details>
 
 <details>
-  <summary>8 Logout</summary>
-  ![](https://media.giphy.com/media/1IoqostY35lJ2jyiiH/giphy.gif
+  <summary>Logout</summary>
+  
+  ![](https://media.giphy.com/media/1IoqostY35lJ2jyiiH/giphy.gif)
+  
 </details>
 
 <details>
-  <summary>3 QR scanner</summary>
-  ![](https://media.giphy.com/media/CJ5Xww1cpJJmrAsMr3/giphy.gif)
+  <summary>QR scanner</summary>
+  
+  ![](https://media.giphy.com/media/LQf9mAG6uaED19rDOS/giphy.gif)
+  
 </details>
 
 <details>
-  <summary>4 Expenses statistics, create new invoice</summary>
+  <summary>Expenses statistics, create new invoice</summary>
+  
   ![](https://media.giphy.com/media/ySpCYprDTPQxCcN9KS/giphy.gif)
+  
 </details>
 
 <details>
-  <summary>5 Share Invoice, invoice confirmation</summary>
+  <summary>Share Invoice, invoice confirmation</summary>
+  
   ![](https://media.giphy.com/media/UtlPDrBa6rBakyNccO/giphy.gif)
+  
 </details>
 
 <details>
-  <summary>10 Share all Invoices, invoice confirmation</summary>
+  <summary>Share all Invoices, invoice confirmation</summary>
+  
   ![](https://media.giphy.com/media/cP7JqjtcbtrQI0MVPV/giphy.gif)
+  
 </details>
 
 <details>
-  <summary>6 View invoice, invoice history, export to PDF, delete invoice</summary>
+  <summary>View invoice, invoice history, export to PDF, delete invoice</summary>
+  
   ![](https://media.giphy.com/media/7CdihdbqtcpS4tF4Sl/giphy.gif)
+  
 </details>
 
 <details>
-  <summary>7 User Menu, settings Screen</summary>
+  <summary>User Menu, settings Screen</summary>
+  
   ![](https://media.giphy.com/media/2QmQ3hkUCHas2slFG5/giphy.gif)
+  
 </details>
 
 <details>
-  <summary>9 Terms</summary>
+  <summary>Terms</summary>
+  
   ![](https://media.giphy.com/media/NXExzfKXT6ktQLxS3V/giphy.gif)
+  
 </details>
 
 ## Getting Started
 
 To run this project:
 
-`cd to where clone file is placed
+```
+cd to where clone file is placed
 yarn install (to install all the dependencies needed to run this project)
-yarn start`
+yarn start
+```
+
 
 ## Author
 * Daniel Ben Yair
