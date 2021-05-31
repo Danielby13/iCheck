@@ -81,6 +81,10 @@ Click on any section to see a short demo of any functionality in the app using a
 
 ## Getting Started
 
+Please contact me before you try to run this project, some pages have been censored due to sensitive information.
+
+Contact information appears on the main page of my GitHub.
+
 To run this project:
 
 ```
