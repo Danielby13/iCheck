@@ -21,6 +21,7 @@ import { Colors } from "react-native-paper";
 import styled from "styled-components";
 import Text from "../components/Text";
 
+//chart config design
 const chartConfig = {
   backgroundColor: "#e26a00",
   backgroundGradientFrom: "#b5e3e3",
@@ -30,6 +31,9 @@ const chartConfig = {
 };
 
 export default StatisticsScreen = () => {
+  //screen that show all the statistics to 2 main charts - by month and by category.
+
+  //create state for dot data in the main chart
   let [tooltipPos, setTooltipPos] = useState({
     x: 0,
     y: 0,
@@ -134,6 +138,7 @@ export default StatisticsScreen = () => {
     { key: "שונות", sum: 0 },
   ]);
 
+  //line chart design by months
   let data_linechart = {
     labels: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
     datasets: [
@@ -144,6 +149,7 @@ export default StatisticsScreen = () => {
     ],
   };
 
+  //pie chart design by category
   let piedata = [
     {
       name: sumByCatagoty[0].key,
@@ -233,6 +239,7 @@ export default StatisticsScreen = () => {
 
   useEffect(() => {
     function getID(category) {
+      //get category id for the chart
       if (category == "בילוי ומסעדות") return 0;
       else if (category == "חינוך ומשפחה") return 1;
       else if (category == "תרבות ופנאי") return 2;
@@ -248,10 +255,12 @@ export default StatisticsScreen = () => {
       else return 11;
     }
     function getCurrectMonth(value) {
+      //get month for the chart
       const str = value.split("-");
       return parseInt(str[1]);
     }
 
+    // get and save filterd data from firebase to two different arrays - one is for month and one for category.
     const db = firebase
       .firestore()
       .collection("invoices")
@@ -353,12 +362,14 @@ export default StatisticsScreen = () => {
   }, []);
 
   const showthisyear = async () => {
+    //by press on a button of this year - update state of array.
     setsumByCatagoty(sumByCatagotythis);
     setsumMonth(sumMonththis);
     setInvoice(invoicethis);
     setnewyear(year);
   };
   const showprevyear = async () => {
+    //by press on a button of prev year - update state of array.
     setsumByCatagoty(sumByCatagotyprev);
     setsumMonth(sumMonthprev);
     setInvoice(invoiceprev);
