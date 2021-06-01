@@ -14,7 +14,7 @@ Click on any section to see a short demo of any functionality in the app using a
 <details>
   <summary>Sign-up</summary>
   
-  ![](https://media.giphy.com/media/pzFcLCeycOGGSiVneD/giphy.gif)
+  ![](https://media.giphy.com/media/3jWkWuVC5BFCODrlkQ/giphy.gif)
   
 </details>
 
@@ -35,15 +35,16 @@ Click on any section to see a short demo of any functionality in the app using a
 <details>
   <summary>QR scanner</summary>
   
-  ![](https://media.giphy.com/media/LQf9mAG6uaED19rDOS/giphy.gif)
+  ![3QRscan](https://user-images.githubusercontent.com/44667895/120349054-6f551880-c306-11eb-815e-95f96a0e496c.gif)
+
   
 </details>
 
 <details>
   <summary>Expenses statistics, create new invoice</summary>
   
-  ![](https://media.giphy.com/media/ySpCYprDTPQxCcN9KS/giphy.gif)
-  
+  ![4video](https://user-images.githubusercontent.com/44667895/120349539-de327180-c306-11eb-88b1-39b1283e565b.gif)
+
 </details>
 
 <details>
@@ -75,11 +76,28 @@ Click on any section to see a short demo of any functionality in the app using a
 </details>
 
 <details>
-  <summary>Terms</summary>
+  <summary>Change Personal Data</summary>
   
-  ![](https://media.giphy.com/media/NXExzfKXT6ktQLxS3V/giphy.gif)
+  ![changePersonalData](https://user-images.githubusercontent.com/44667895/120350712-e5a64a80-c307-11eb-9f9d-cfcf9f804761.gif)
   
 </details>
+
+<details>
+  <summary>Update Password</summary>
+  
+  ![updatePassword](https://user-images.githubusercontent.com/44667895/120355417-f35dcf00-c30b-11eb-96e7-825535130182.gif)
+  
+</details>
+
+
+<details>
+  <summary>Reset User Data and Delete User</summary>
+  
+  ![resetAndDelete](https://user-images.githubusercontent.com/44667895/120354857-7e8a9500-c30b-11eb-8959-6d9708851999.gif)
+
+  
+</details>
+
 
 ## Getting Started
 
