@@ -94,7 +94,7 @@ yarn start
 ```
 
 
-## Author
+## Authors
 * Daniel Ben Yair
 * Inbal Altan
 
