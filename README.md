@@ -90,7 +90,7 @@ To run this project:
 ```
 cd to where clone file is placed
 yarn install (to install all the dependencies needed to run this project)
-yarn start
+expo start
 ```
 
 
