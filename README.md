@@ -109,7 +109,7 @@ To run this project:
 
 ```
 cd to where clone file is placed
-expo install (to install all the dependencies needed to run this project)
+yarn install (to install all the dependencies needed to run this project)
 expo start
 ```
 
